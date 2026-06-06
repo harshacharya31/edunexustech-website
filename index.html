@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduNexus | Digital Solutions for Schools</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Plus Jakarta Sans', sans-serif;
+    background:#f8fafc;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#0f172a;
+    color:white;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:800;
+    letter-spacing:-1px;
+}
+
+.hero h1{
+    font-size:52px;
+    margin-bottom:20px;
+    font-weight:800;
+    letter-spacing:-1px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:15px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#93c5fd;
+}
+
+.hero{
+    background:linear-gradient(135deg,#0f172a,#2563eb);
+    color:white;
+    text-align:center;
+    padding:110px 20px;
+}
+
+.hero h1{
+    font-size:52px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    max-width:850px;
+    margin:auto;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    background:white;
+    color:#2563eb;
+    padding:14px 28px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+.section{
+    padding:80px 8%;
+}
+
+.section h2{
+    text-align:center;
+    margin-bottom:50px;
+    color:#0f172a;
+    font-size:36px;
+    font-weight:800;
+    letter-spacing:-0.5px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 18px rgba(0,0,0,0.08);
+}
+
+.card h3{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.card ul{
+    padding-left:18px;
+}
+
+.card li{
+    margin-bottom:10px;
+}
+
+.about{
+    background:white;
+}
+
+.about p{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    font-size:18px;
+}
+
+.contact{
+    background:#e2e8f0;
+    text-align:center;
+}
+
+.contact p{
+    font-size:18px;
+    margin:12px 0;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+
+footer h3{
+    margin-bottom:10px;
+}
+
+@media(max-width:768px){
+
+    header{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav{
+        display:flex;
+        gap:15px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    nav a{
+        margin-left:0;
+    }
+
+    .hero h1{
+        font-size:36px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+}
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+    <div class="logo">EduNexus</div>
+
+
+<nav>
+    <a href="#features">Features</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+
+</header>
+
+<section class="hero">
+
+
+<h1>Digital Solutions for Schools</h1>
+
+<p>
+    Streamline library operations, improve student engagement,
+    and gain actionable insights through a modern Library
+    Management System designed specifically for schools.
+</p>
+
+
+
+
+</section>
+
+<section class="section" id="features">
+
+
+<h2>Key Features</h2>
+
+<div class="features">
+
+    <div class="card">
+        <h3>📚 Books Management</h3>
+        <ul>
+            <li>Centralized digital catalog for all books.</li>
+            <li>Search books by title, author, category. </li>
+            <li>Real-time visibility of available and issued books.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>🔄 Issue & Return Management</h3>
+        <ul>
+            <li>Quick and efficient issue/return process.</li>
+            <li>Track due dates and overdue books.</li>
+            <li>Maintain complete borrowing history.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>👨‍🎓 Student Management</h3>
+        <ul>
+            <li>Manage student records and memberships.</li>
+            <li>Track issued books and reading history.</li>
+            <li>Monitor active and inactive library members.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>📈 Analytics & Reports</h3>
+        <ul>
+            <li>Identify popular and high-demand books.</li>
+            <li>Track library utilization trends.</li>
+            <li>Generate insights for budgeting and planning.</li>
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+</section>
+
+<section class="section about" id="about">
+
+
+<h2>About EduNexus</h2>
+
+<p>
+    EduNexus Technologies is focused on building practical,
+    affordable, and scalable digital solutions for schools.
+    Our goal is to simplify administrative operations, improve
+    visibility, and help educational institutions make
+    informed decisions through technology.
+</p>
+
+
+</section>
+
+<section class="section contact" id="contact">
+
+<h2>Contact Us</h2>
+
+<p><strong>Email:</strong> contact@edunexustech.in</p>
+
+<p><strong>Phone:</strong> +91 82383 04429</p>
+
+<p>
+    Interested in a demo or pilot program?
+    Get in touch and we'll be happy to discuss your requirements.
+</p>
+
+</section>
+
+<footer>
+
+
+<h3>EduNexus Technologies</h3>
+
+<p>Digital Solutions for Schools</p>
+
+<p>contact@edunexustech.in | +91 82383 04429</p>
+
+<br>
+
+<p>© 2026 EduNexus Technologies. All Rights Reserved.</p>
+
+
+</footer>
+
+</body>
+</html>
